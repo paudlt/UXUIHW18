@@ -31,7 +31,65 @@
     width: 500px;
     margin: 0 auto;
   }
-  /* Footer styles */
+
+
+
+
+
+   /*  <!--  My UX Skills section coded using CSS flex --> */
+
+   .subHeading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
+}
+
+#mySkillsGrid {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ grid-template-areas: 
+ "UXResearch UIDesign UserTesting"
+ "Wireframing Prototyping WebDevelopment"
+ ;
+}
+
+#UXResearch {
+    grid-area: UXResearch;
+    background-image: src="Images\search.png"
+   }
+#UIDesign {
+    grid-area: UIDesign;
+    background-image: url("Images\palette.png");
+   }
+#UserTesting {
+    grid-area: UserTesting;
+    background-image: url("Images\test.png");
+   }
+#Wireframing {
+    grid-area: Wireframing;
+    background-image: url("Images\wireframe-illustration.png");
+   }
+#Prototyping {
+    grid-area: Prototyping;
+    background-image: url("Images\prototype.png");
+   }
+#WebDevelopment {
+    grid-area: WebDevelopment;
+    background-image: url("Images\website.png");
+   }
+
+
+
+
+
+
+
+
+
+
+     /* Footer styles */
   
   .footer {
     background-color: #373738;
@@ -62,36 +120,3 @@
     display: inline-block;
     vertical-align: top;
   }
-
-
-
-   /*  <!--  My UX Skills section coded using CSS flex --> */
-
-#mySkillsGrid {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr;
- grid-template-areas: 
- "UXResearch UIDesign UserTesting"
- "Wireframing Prototyping WebDevelopment"
- ;
-}
-
-.UXResearch {
-    grid-area: UXResearch;
-   }
-.UIDesign {
-    grid-area: UIDesign;
-   }
-.UserTesting {
-    grid-area: UserTesting;
-   }
-.Wireframing {
-    grid-area: Wireframing;
-   }
-.Prototyping {
-    grid-area: Prototyping;
-   }
-.WebDevelopment {
-    grid-area: WebDevelopment;
-   }
