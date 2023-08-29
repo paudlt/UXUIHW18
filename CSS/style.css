@@ -57,27 +57,21 @@
 
 #UXResearch {
     grid-area: UXResearch;
-    background-image: src="Images\search.png"
    }
 #UIDesign {
     grid-area: UIDesign;
-    background-image: url("Images\palette.png");
    }
 #UserTesting {
     grid-area: UserTesting;
-    background-image: url("Images\test.png");
    }
 #Wireframing {
     grid-area: Wireframing;
-    background-image: url("Images\wireframe-illustration.png");
    }
 #Prototyping {
     grid-area: Prototyping;
-    background-image: url("Images\prototype.png");
    }
 #WebDevelopment {
     grid-area: WebDevelopment;
-    background-image: url("Images\website.png");
    }
 
 
