@@ -66,10 +66,10 @@
 
 
    /*  <!--  My UX Skills section coded using CSS flex --> */
-   
-   .containerGrid {
+
+#mySkillsGrid {
  display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 1fr 1fr;
  grid-template-areas: 
  "UXResearch UIDesign UserTesting"
@@ -80,18 +80,18 @@
 .UXResearch {
     grid-area: UXResearch;
    }
-   .UIDesign {
+.UIDesign {
     grid-area: UIDesign;
    }
-   .UserTesting {
+.UserTesting {
     grid-area: UserTesting;
    }
-   .Wireframing {
+.Wireframing {
     grid-area: Wireframing;
    }
-   .Prototyping {
+.Prototyping {
     grid-area: Prototyping;
    }
-   .WebDevelopment {
+.WebDevelopment {
     grid-area: WebDevelopment;
    }
