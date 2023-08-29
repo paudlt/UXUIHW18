@@ -45,29 +45,31 @@
     <section>
         <h1>My UX Skills</h1>
         <style>
-            .grid-container {
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              grid-gap: 20px;
+            .flex-container {
+              display: flex; /* This sets the display to flex */
+              flex-direction: row; /* This sets the direction of flex items in a row */
+              justify-content: space-around; /* This distributes flex items with space around them */
+              align-items: center; /* This centers flex items vertically */
+              height: 300px; /* Set the height of the container */
+              background-color: #f2f2f2; /* Background color for the container */
             }
             
-            .grid-item {
-              position: relative;
-              width: 300px;
-              height: 200px;
-              background-color: #f0f0f0;
-            }
-            
-            .grid-title {
-              position: absolute;
-              bottom: 0;
-              left: 0;
-              width: 100%;
-              background-color: rgba(0, 0, 0, 0.7);
+            .flex-item {
+              background-color: #3498db; /* Background color for flex items */
               color: white;
-              padding: 10px;
+              text-align: center;
+              line-height: 75px; /* Vertical alignment within the flex item */
+              font-size: 20px;
+              width: 100px; /* Width of each flex item */
+              height: 75px; /* Height of each flex item */
             }
-          </style>
+            </style>
+            <div class="flex-container">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+              </div>
+              
       </section>
 
 
