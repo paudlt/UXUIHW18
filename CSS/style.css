@@ -55,6 +55,7 @@
 
 #UXResearch {
     grid-area: UXResearch;
+    background-image: url(C:\Users\paugd\Documents\2023 UI UX UC Berkley - Paulina\6. Front End Development\UXUIHW18\Images\search.png)
    }
 #UIDesign {
     grid-area: UIDesign;
@@ -71,7 +72,7 @@
 #Prototyping {
     grid-area: Prototyping;
    }
-   
+
 #WebDevelopment {
     grid-area: WebDevelopment;
    }
