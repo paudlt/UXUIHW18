@@ -34,11 +34,23 @@
   }
 
    /*  <!--  My UX Skills section coded using CSS flex --> */
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  align-items: center;
+
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.flexContainer {
+ margin: 0px 5%;
+ display: flex;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ grid-template-areas: 
+ "UXResearch UIDesign UserTesting"
+ "Wireframing Prototyping WebDevelopment"
+ ;
 }
 
 .UXResearch {
