@@ -45,8 +45,9 @@
     margin: 50px auto;
 }
 
-#mySkillsGrid {
- display: grid;
+.flexContainer {
+ margin: 0px 5%;
+ display: flex;
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 1fr 1fr;
  grid-template-areas: 
