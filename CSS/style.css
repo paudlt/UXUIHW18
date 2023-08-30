@@ -53,27 +53,26 @@
  ;
 }
 
-#UXResearch {
+.UXResearch {
     grid-area: UXResearch;
-    background-image: 'C:\Users\paugd\Documents\2023 UI UX UC Berkley - Paulina\6. Front End Development\UXUIHW18\Images\search.png'
    }
-#UIDesign {
+.UIDesign {
     grid-area: UIDesign;
    }
 
-#UserTesting {
+.UserTesting {
     grid-area: UserTesting;
    }
 
-#Wireframing {
+.Wireframing {
     grid-area: Wireframing;
    }
 
-#Prototyping {
+.Prototyping {
     grid-area: Prototyping;
    }
 
-#WebDevelopment {
+.WebDevelopment {
     grid-area: WebDevelopment;
    }
 
