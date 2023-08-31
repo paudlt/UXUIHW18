@@ -67,23 +67,44 @@
     margin: 50px auto;
    }
 
-   body {
-    display: grid;
-    padding: 2rem;
-    grid-template-columns: 300px 1fr;
-    gap: 1rem;
-    align-items: center;
-    max-width: 800px;
+   .workGrid {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
     margin: 0 auto;
   }
-
-  img {
-    max-width: 100%;
-    height: auto;
+  
+  .DOI, .BALEAF, .Nami, .ElRey {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .DOI {
+    margin-top:20px;
+    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/S7 - Case Study Cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  .BALEAF {
+    background-image: url("C:\Users\paugd\Documents\2023 UI UX UC Berkley - Paulina\6. Front End Development\UXUIHW18\Images\Donation Overlay2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .Nami {
+    background-image: url("Images/Toddler Renders - 3 mama.png");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-   
-
+  .ElRey {
+    background-image: url("Images\El Rey 2022 PS - 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
 
 
