@@ -76,7 +76,7 @@
   }
   
   .DOI, .BALEAF, .Nami, .ElRey {
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -90,20 +90,32 @@
   
   }
   .BALEAF {
-    background-image: url("C:\Users\paugd\Documents\2023 UI UX UC Berkley - Paulina\6. Front End Development\UXUIHW18\Images\Donation Overlay2.png");
+    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/Donation Overlay2.png");
     background-repeat: no-repeat;
     background-position: center;
   }
   .Nami {
-    background-image: url("Images/Toddler Renders - 3 mama.png");
+    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/Toddler Renders - 3 mama.png");
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .ElRey {
-    background-image: url("Images\El Rey 2022 PS - 1.jpg");
+    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/El Rey 2022 PS - EWADING A BOOK2.jpg");
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+  }
+  .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica;
+    font-size: small;
   }
 
 
