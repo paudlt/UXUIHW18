@@ -44,11 +44,9 @@
     margin: 50px auto;
   }
   
-  .flexContainer {
+  .gridContainer {
    margin: 0px 5%;
-   display: flex;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
+   display: grid;
    grid-template-areas: 
    "UXResearch UIDesign UserTesting"
    "Wireframing Prototyping WebDevelopment"
