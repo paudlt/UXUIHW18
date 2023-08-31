@@ -44,50 +44,57 @@
     margin: 50px auto;
   }
   
-  .gridContainer {
-   margin: 0px 5%;
-   display: grid;
-   grid-template-areas: 
-   "UXResearch UIDesign UserTesting"
-   "Wireframing Prototyping WebDevelopment"
-   ;
-  }
-  
-  .UXResearch {
-      grid-area: UXResearch;
-     }
-  .UIDesign {
-      grid-area: UIDesign;
-     }
-  
-  .UserTesting {
-      grid-area: UserTesting;
-     }
-  
-  .Wireframing {
-      grid-area: Wireframing;
-     }
-  
-  .Prototyping {
-      grid-area: Prototyping;
-     }
-  
-  .WebDevelopment {
-      grid-area: WebDevelopment;
-     }
-
-
+  .flex-container {
+    display: flex;
+    flex-wrap: center;
+    max-width: 1000px;
+    }
+ 
+.flex-container div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
      
+
+
+   /*  <!--  My Projects section coded using CSS flex --> */
+
+   .subHeading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
+   }
+
+   body {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+   
+
+
+
+
+
 
      /* Footer styles */
   
   .footer {
     background-color: #373738;
     padding: 25px;
-    display: inline-block;
-    
-  
-  
+    display: inline-block;  
   }
   
   .home {
