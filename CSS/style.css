@@ -22,10 +22,12 @@
   }
   
   
+
+
   /* Hero Image styles */
-  .heroimg {
+  #heroimg {
   height: 300px;
-  padding: 25px;
+  padding: 50px;
   }
   
   .content {
@@ -36,13 +38,17 @@
 
 
    /*  <!--  My UX Skills section coded using CSS flex --> */
+   .mySkills {
+    height: 300px;
+    padding: 50px;
+    }
 
    .subHeading {
     text-align: center;
     border-bottom: 2px solid black;
     width: 300px;
     margin: 50px auto;
-  }
+   }
   
   .flex-container {
     display: flex;
@@ -150,3 +156,41 @@
     display: inline-block;
     vertical-align: top;
   }
+
+  
+  
+  /*  Code a Mobile Media Query to Make Your Design Responsive for Mobile Devices */
+
+  @media only screen and (max-width: max-width) {
+    .workGrid {
+      display: column;
+      width: 100%
+      grid-template-columns; 1fr;
+      grid-template-areas:
+      "DOI"
+      "BALEAF"
+      "Nami"
+      "ElRey"
+      ;
+    }
+
+    
+@media only screen and (max-width: 1000px) {
+  #navigation {
+    display: none;
+  }
+  .icons {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #headline {
+    position: static;
+    margin: 20px;
+  }
+  
+  
+  }
+
+  
