@@ -20,17 +20,21 @@
     margin-left: auto;
     text-align: center;
   }
+
+  .nav ul {
+    display: flex;
+  }
   
   
 
 
   /* Hero Image styles */
-  .heroimg {
+  #heroimg {
   height: 300px;
   padding: 150px;
   }
   
-  #content {
+  .content {
     width: 500px;
     margin-left:auto;
     margin-right:auto; 
