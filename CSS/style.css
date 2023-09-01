@@ -11,7 +11,6 @@
   }
   
   .navigation {
-   width: 73%;
    padding: 1%; 
   }
   
@@ -21,7 +20,7 @@
     text-align: center;
   }
 
-  .nav ul {
+  nav {
     display: flex;
   }
   
@@ -100,24 +99,24 @@
   }
   .DOI {
     margin-top:20px;
-    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/S7 - Case Study Cover.png");
+    background-image: url("../Images/S7 - Case Study Cover.png");
     background-repeat: no-repeat;
     background-position: center;
   
   }
   .BALEAF {
-    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/Donation Overlay2.png");
+    background-image: url("../Images/Donation Overlay2.png");
     background-repeat: no-repeat;
     background-position: center;
   }
   .Nami {
-    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/Toddler Renders - 3 mama.png");
+    background-image: url("../Images/Toddler Renders - 3 mama.png");
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .ElRey {
-    background-image: url("C:/Users/paugd/Documents/2023 UI UX UC Berkley - Paulina/6. Front End Development/UXUIHW18/Images/El Rey 2022 PS - EWADING A BOOK2.jpg");
+    background-image: url("../Images/El Rey 2022 PS - EWADING A BOOK2.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
