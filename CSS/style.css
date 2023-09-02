@@ -1,16 +1,13 @@
 
 /* Navigation styles */
 .logo {
-  width: 23%;
-  padding: 1%;
+  padding: 0%;
 }
 
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
   }
-  
-
   
   .navigation {
     display: grid;
@@ -53,7 +50,7 @@
 
    /*  <!--  My UX Skills section coded using CSS flex ----------------------------------------> */
    #mySkills {
-    padding: 150x;
+    padding: 50x;
     }
 
    .subHeading {
@@ -77,7 +74,7 @@
      
    /*  <!--  My Projects section coded using CSS flex -----------------------------------------------------> */
    #myProjects {
-    padding: 200px;
+    padding: 50px;
     }
 
    .subHeading {
@@ -170,6 +167,35 @@
     justify-content: center;
   }
 
+  /* Typography CSS */
+
+h2 {
+  font-size: 28;
+  margin: 0px 0px;
+  color: #2F2F2F;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #2F2F2F;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+p {
+  max-width: 500px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #2F2F2F;
+}
     
   /*  Code a Mobile Media Query to Make Your Design Responsive for Mobile Devices */
 
@@ -201,8 +227,34 @@
     position: static;
     margin: 20px;
   }
-  
-  
   }
+
+  @media only screen and (max-width: 600px) {
+    #headline {
+      position: static;
+      margin: 20px;
+    }
+    #heroGrid {
+      grid-template-areas: footer;
+      "DOI"
+      "BALEAF"
+      "Nami"
+      "ElRey"
+      ;;
+    }
+    #categoryGrid {
+      grid-template-rows:
+      grid-template-columns: 1fr;
+      grid-template-areas: footer;
+      "DOI"
+      "BALEAF"
+      "Nami"
+      "ElRey"
+      ;
+      ;
+    }
+  }
+  
+
 
   
