@@ -1,36 +1,48 @@
 
 /* Navigation styles */
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
   }
   
-  .logo {
-    width: 23%;
-    padding: 1%;
-  }
+
   
   .navigation {
-   padding: 1%; 
+    display: grid;
+    background-color: #E5E5E5;
+    padding: 1%; 
+  }
+
+  .navigation a {
+    padding: 20px 15px;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
   }
   
-  .inline-block{
-    width: 50%;
-    margin-left: auto;
+  .inline-logo{
+    width: 100%;
+    margin: auto;
     text-align: center;
   }
 
   nav {
     display: flex;
+    background-color: #E5E5E5;
+    padding: 1%;
+  }
+
+  body {
+    margin: 0px;
   }
   
-  
-
-
-  /* Hero Image styles */
+  /* Hero Image styles................................... */
   #heroimg {
-  height: 300px;
-  padding: 150px;
+  padding: 50px;
   }
   
   .content {
@@ -39,11 +51,8 @@
     margin-right:auto; 
   }
 
-
-
-   /*  <!--  My UX Skills section coded using CSS flex --> */
+   /*  <!--  My UX Skills section coded using CSS flex ----------------------------------------> */
    #mySkills {
-    height: 300px;
     padding: 150x;
     }
 
@@ -66,11 +75,8 @@
     padding: 10px;
 }
      
-
-
-   /*  <!--  My Projects section coded using CSS flex --> */
+   /*  <!--  My Projects section coded using CSS flex -----------------------------------------------------> */
    #myProjects {
-    height: 300px;
     padding: 200px;
     }
 
@@ -133,41 +139,38 @@
     font-size: small;
   }
 
-
-
-
-
-     /* Footer styles */
+     /* Footer styles...................................................................................... */
   
   .footer {
-    background-color: #373738;
+    display: grid; 
+    background-color: #E5E5E5;
     padding: 25px;
-    display: inline-block;  
-  }
-  
-  .home {
-    padding: 25px;
-  }
-  
-  .projects {
-    padding: 25px;
-  }
-  
-  .about {
-    padding: 25px;
-  }
-  
-  .resume {
-    padding: 25px;
-  }
-  
-  .inline-block {
-    display: inline-block;
-    vertical-align: top;
+   
   }
 
-  
-  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, ;
+    text-decoration: none;
+  }
+
+  .famfooter {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+  }
+
+  .top-div {
+    justify-content: center;
+    width:50%;
+  }
+
+  .bottom-div {
+    display: grid;
+    justify-content: center;
+  }
+
+    
   /*  Code a Mobile Media Query to Make Your Design Responsive for Mobile Devices */
 
   @media only screen and (max-width: max-width) {
@@ -175,17 +178,16 @@
       display: column;
       width: 100%
       grid-template-columns; 1fr;
-      grid-template-areas:
+      grid-template-areas: footer;
       "DOI"
       "BALEAF"
       "Nami"
       "ElRey"
       ;
     }
-    }
-
-    
-@media only screen and (max-width: 1000px) {
+  }
+      
+@media only screen and (max-width: 600px) {
   #navigation {
     display: none;
   }
